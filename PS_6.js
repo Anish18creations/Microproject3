@@ -8,7 +8,7 @@ let newArray = food.filter(function (el) {
 );
 function listItem(i) {
 	i.forEach((item) => {
-		console.log(item.foodname);
+		console.log(item);
 	});
 }
 listItem(newArray);
