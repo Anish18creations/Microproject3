@@ -5,5 +5,5 @@ const food = require('./food.json');
 food.sort((a, b) => b.protiens - a.protiens);
 
 food.forEach((item) => {
-    console.log(item.foodname);
+    console.log(item);
 });
