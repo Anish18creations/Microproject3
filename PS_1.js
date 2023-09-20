@@ -4,7 +4,7 @@ const food = require('./food.json');
 
 function listItem(i) {
 	i.forEach((item) => {
-		console.log(item.foodname);
+		console.log(item);
 	});
 }
 
